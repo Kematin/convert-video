@@ -1,0 +1,6 @@
+services:
+  bot:
+    build: .
+    image: convert_bot:latest
+    env_file:
+      - src/.env
